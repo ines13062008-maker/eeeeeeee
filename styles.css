@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#103177, #8490d3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card {
+    background: rgb(40, 86, 240);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: 85%;
+    max-width: 300px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+h1 {
+    color: #f3f2f7;
+    font-size: 1cm;
+    animation: zoom 1.5s infinite;
+}
+@keyframes zoom{ 0%, 100% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.2);
+}
+}
+h2 {
+    color: #f3f2f7;
+    font-size: 0,5cm;
+}
+
+h3 {
+    color: #f3f2f7;
+}
+.btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #a3abf7;
+    color: rgb(240, 242, 245);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+.btn:active {
+    transform: scale(0.95);
+}
